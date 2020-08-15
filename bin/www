@@ -7,12 +7,17 @@
 var app = require('../app');
 var debug = require('debug')('simple-page-node:server');
 var http = require('http');
+const { error } = require('console');
+
 
 /**
  * Get port from environment and store in Express.
  */
 
+var host = normalizeUrl(process.env.URL || 'localhost');
 var port = normalizePort(process.env.PORT || '3000');
+
+app.set('host',host )
 app.set('port', port);
 
 /**
@@ -25,7 +30,9 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+server.listen(port,host, ()=>{
+  console.log('Started at ', server.address())
+})
 server.on('error', onError);
 server.on('listening', onListening);
 
@@ -47,6 +54,16 @@ function normalizePort(val) {
   }
 
   return false;
+}
+function normalizeUrl (val) {
+  var url = val.trim();
+  var result = url.indexOf('http://');
+  if(result != -1){
+    return url.slice(7);
+  }
+  else{
+    return url;
+  }
 }
 
 /**
