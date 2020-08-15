@@ -14,10 +14,10 @@ const { error } = require('console');
  * Get port from environment and store in Express.
  */
 
-var host = normalizeUrl(process.env.URL || 'localhost');
+// var host = normalizeUrl(process.env.URL || 'localhost');
 var port = normalizePort(process.env.PORT || '3000');
 
-app.set('host',host )
+// app.set('host',host );
 app.set('port', port);
 
 /**
@@ -30,7 +30,7 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port,host, ()=>{
+server.listen(port, ()=>{
   console.log('Started at ', server.address())
 })
 server.on('error', onError);
