@@ -42,7 +42,7 @@ function HelloMessage(props) {
 
                     <div class="content">
                     <h1>Markus Douglas N. Siqueira</h1>
-                    <h2>Jr. backend e frontend developer</h2>
+                    <h2>Jr. Fullstack developer</h2>
                     <div class="image-transform">
                         <img src="assets/facebook perfil.jpg" alt="facebook foto perfil" />
                     </div>
