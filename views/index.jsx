@@ -70,7 +70,7 @@ function HelloMessage(props) {
                         <br/>
                         <p>
                         Este site foi construído durante a
-                        <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+                        <a href="https://www.alura.com.br/imersao-css"> Imersão CSS da Alura</a>
                         😻
                         </p>
                     </div>
@@ -81,52 +81,52 @@ function HelloMessage(props) {
                     <div class="content">
                     <div class="galery">
                         <figure class="around-image">
-                            <img src="assets/images/projetosemomni09.jpg" alt="semana Omnistack 09"/>
                             <a  href="https://github.com/makusdouglas/semanaOmnistack09">
+                            <img src="assets/images/projetosemomni09.jpg" alt="semana Omnistack 09"/>
                             <figcaption>semana Omnistack 09</figcaption>
                             </a>
                         </figure>
                         
                         <figure class="around-image">
-                        <img src="assets/images/semanomnistack10.png" alt="semana Omnistack 10"/>
                         <a href="https://github.com/makusdouglas/SemanaOmnistack10">
+                        <img src="assets/images/semanomnistack10.png" alt="semana Omnistack 10"/>
                             <figcaption>semana Omnistack 10</figcaption>
                         </a>
                         </figure>
                         <figure class="around-image">
-                        <img src="assets/images//semanaomnistack11.jpg" alt="semana Omnistack 11"/>
                         <a href="https://github.com/makusdouglas/semana-omnistack-11">
+                        <img src="assets/images//semanaomnistack11.jpg" alt="semana Omnistack 11"/>
                             <figcaption>semana Omnistack 11</figcaption>
                         </a>
                         </figure>
                         <figure class="around-image">
-                        <img src="assets/images/bootcamp.png" alt="Projetos bootcamp"/>
                         <a href="https://github.com/makusdouglas/Bootcamp-7.0">
+                        <img src="assets/images/bootcamp.png" alt="Projetos bootcamp"/>
                             <figcaption><p> Módulos Bootcamp Rocketseat</p></figcaption>
                         </a>
                         </figure>
                         <figure class="around-image">
+                        <a href="https://medium.com/aela/o-que-%C3%A9-ux-design-2f8161cd1a7b">
                         <img src="assets/images/ux-design.jpg" alt="Aprendendo Design UX"/>
-                        <a href="">
                             <figcaption>Aprendendo Design UX</figcaption>
                         </a>
                         </figure>
                         <figure class="around-image">
+                        <a href="https://reactnative.dev/">
                         <img src="assets/images/reactnavite.png" alt="Jr. em React Native"/>
-                        <a href="">
                             <figcaption>Jr. em React Native</figcaption>
                         </a>
                         </figure>
                         <figure class="around-image">
+                        <a href="https://pt-br.reactjs.org/">
                         <img src="assets/images/reactjs.jpg" alt="Jr. em React JS"/>
-                        <a href="">
                             <figcaption>Jr. em React JS</figcaption>
                         </a>
                         </figure>
 
                         <figure class="around-image">
+                            <a href="https://nodejs.org/en/about/">
                             <img src="assets/images/nodejs.png" alt="Jr. em Node.js"/>
-                            <a href="">
                             <figcaption>Jr. em Node.js</figcaption>
                             </a>
                         </figure>

@@ -167,7 +167,6 @@ body {
 
 .around-image img:active,
 .around-image img:hover {
-  max-width: 300px;
   transform: scale(0.9);
 }
 
