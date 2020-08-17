@@ -8,7 +8,8 @@ function HelloMessage(props) {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link rel="stylesheet" href="/stylesheets/index.css" />
             <script src="/javascripts/script.js"></script>
-            <title>About-me</title>
+            <link rel="shortcut icon" href="assets/faceicon.svg" type="image/x-icon"/>
+            <title>Portifólio | Markus Siqueira</title>
         </head>
         <body>
             <header>
